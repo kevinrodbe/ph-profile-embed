@@ -2,9 +2,9 @@ require 'sinatra'
 require 'rack'
 require 'json'
 require 'httparty'
-require 'dotenv'
+require 'dotenv' if development?
 
-Dotenv.load
+Dotenv.load if development?
 
 configure do
 	set :erb, layout: :layout
