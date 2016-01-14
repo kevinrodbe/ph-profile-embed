@@ -1,0 +1,60 @@
+@import url('http://karlcoelho.github.io/fonts/fonts.css');
+
+
+.ph-embed {
+  font-family: 'proxima-nova', sans-serif !important;
+  border: 1px solid #F2F2F2;
+  position: relative;
+  border-radius: 5px;
+  width: 400px;
+  background-color: #F2F2F2;
+}
+
+.ph-embed .headline {
+  color: #9B9B9B;
+  margin-left: 2px;
+  font-size: 0.5em;
+  margin-top: 2px;
+}
+
+.ph-embed .centered {
+  margin: auto;
+  display: block;
+}
+
+.ph-embed > h1 > a {
+  text-decoration: none;
+  color: black;
+}
+
+.ph-embed > h1 > a:hover, .ph-embed > .sticky:hover {
+  text-decoration: none;
+  color: #9B9B9B;
+}
+
+.ph-embed .name {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.ph-embed .profile-image {
+  border-radius: 100px;
+  margin-top: 9px;
+  width: 88px;
+}
+
+.ph-embed .box {
+  margin: 18px;
+}
+
+.ph-embed .box > a {
+  text-decoration: none;
+  color: black;
+}
+
+.ph-embed > .sticky {
+  position: absolute;
+  right: 4;
+  top: 4;
+  cursor: pointer;
+}
