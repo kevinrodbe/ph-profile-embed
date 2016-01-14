@@ -30,7 +30,7 @@ get '/user/:username' do
   erb :index
 end
 
-# get '/frame/:username' do
-#   @user = load_user(params[:username])
-#   erb :frame
-# end
+get '/preview/:username' do
+  @user = params[:username]
+  erb :preview
+end
