@@ -43,7 +43,7 @@
         var customTag = document.createElement("link");
         customTag.rel = "stylesheet";
         customTag.type = "text/css";
-        customTag.href =  "http://localhost:9393/style.css";
+        customTag.href =  "<%= request.base_url %>/style.css";
         customTag.media = "all";
         document.getElementsByTagName('head')[0].appendChild(customTag);
         styleTags.push(customTag);
