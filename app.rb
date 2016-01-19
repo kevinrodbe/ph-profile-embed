@@ -26,6 +26,7 @@ end
 
 get '/user/:username' do
   content_type 'text/javascript'
+  response['Access-Control-Allow-Origin'] = '*'
   @user = load_user(params[:username])
   erb :index
 end
