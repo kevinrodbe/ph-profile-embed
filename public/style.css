@@ -22,12 +22,12 @@
   display: block;
 }
 
-.ph-embed > h1 > a {
+.ph-embed a {
   text-decoration: none;
   color: black;
 }
 
-.ph-embed > h1 > a:hover, .ph-embed > .sticky:hover {
+.ph-embed .hover:hover, .ph-embed .box > a:hover {
   text-decoration: none;
   color: #9B9B9B;
 }
@@ -47,14 +47,15 @@
   margin: 18px;
 }
 
-.ph-embed .box > a {
-  text-decoration: none;
-  color: black;
-}
-
-.ph-embed > .sticky {
+.ph-embed .sticky {
   position: absolute;
+  font-size: 10px;
   right: 4px;
   top: 0px;
   cursor: pointer;
+}
+
+.ph-embed .table {
+  display: table; 
+  margin: 0 auto;
 }
