@@ -24,6 +24,10 @@ def load_user(username)
   end
 end
 
+get '/' do
+  redirec 'http://karlcoelho.github.io/ph-profile-embed'
+end
+
 get '/user/:username' do
   content_type 'text/javascript'
   response['Access-Control-Allow-Origin'] = '*'
